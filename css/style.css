@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    position: relative;
+    min-width: 1160px;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #36332e;
+    cursor: pointer;
+}
+
+a:hover{
+    color: #de869b;
+}
+
+li{
+    list-style: none;
+}
+
+.nav ul{
+     width: 800px;
+     margin: 0 auto;
+     padding-right: 200px;
+     overflow: hidden;
+}
+
+.nav li{
+    float: left;
+    margin-right: 30px;
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer; 
+}
+
+.nav li:hover{
+    color: #d2d0cf;
+}
+
+.nav li:first-child{
+    margin-left: 50px;
+}
+
+input{
+    border: 1px #c7c7c7 solid;
+    outline: none;
+    padding-left: 5px;
+}
+
+.nav-container{
+    width: 100%;
+}
+
+.title{
+    width: 100%;
+    height: 98px;
+    border-bottom: 2px grey solid;
+}
+
+.title-center{
+    position: relative;
+    width: 1160px;
+    padding-top: 25px;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 146px;
+    margin: 0 auto;
+    overflow: hidden;
+    font-size: 31px;
+}
+
+.follow{
+    margin-top: -30px;
+    float: right;
+}
+
+.nav{
+    width: 100%;
+    height: 75px;
+}
+
+.nav-center{
+
+    height: 100%;
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.search{
+    position: relative;
+    top: -25px;
+    padding-right: 30px;
+    float: right;
+}
+
+.search input{
+    height: 25px;
+}
+
+.banner{
+    width: 100%;
+    height: 450px;
+}
+
+.main-banner{
+    position: relative;
+}
+
+.banner-wrapper{
+    overflow: hidden;
+    width: 100%;
+    height: 388px;
+}
+
+.banner-preview{
+    overflow: hidden;
+    transition: .5s;
+}
+
+.banner-preview li{
+    width: 20%;
+    height: 388px;
+    float: left;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.arrow{
+    position: absolute;
+    top: 161px;
+    right: 0;
+    width: 66px;
+    height: 66px;
+    text-align: center;
+    font-size: 45px;
+    display: none;
+}
+
+.main-banner:hover .arrow{
+    display: block;
+    background-color: #130f07;
+    opacity: 0.7;
+    color: #494237;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.buttons{
+    width: 100px;
+    margin: 0 auto;
+}
+
+.buttons ul{
+    margin-top: 30px;
+    height: 100%;
+    overflow: hidden;                                  
+}
+
+.btn{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin: 0 5px 0 10px;
+    float: left;
+    background-color: #7f7b74;
+}
+
+.btn:hover{
+    background-color: #292317;
+    cursor: pointer;
+}
+
+.on{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin: 0 5px 0 10px;
+    float: left;
+    background-color: #cc2357;
+    cursor: pointer;
+}
+
+
+
